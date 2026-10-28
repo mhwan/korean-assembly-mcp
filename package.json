@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "개인용 국회 데이터 MCP 서버 (열린국회정보 OpenAPI를 실브라우저로 호출)",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "assembly-mcp": "src/server.js"
