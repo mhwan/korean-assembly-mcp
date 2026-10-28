@@ -1,0 +1,3844 @@
+[
+ {
+  "name": "국회의원 인적사항",
+  "infaId": "OWSSC6001134T516707",
+  "service": "nwvrqwxyaytdsfvhu",
+  "urls": [
+   {
+    "name": "국회의원인적사항",
+    "service": "nwvrqwxyaytdsfvhu"
+   }
+  ],
+  "request": [
+   {
+    "id": "HG_NM",
+    "name": "이름",
+    "need": null,
+    "example": "HG_NM='이름 검색어'  (예시) HG_NM=황희"
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당명",
+    "need": null,
+    "example": "POLY_NM='정당명 검색어'  (예시) POLY_NM=정의당"
+   },
+   {
+    "id": "ORIG_NM",
+    "name": "선거구",
+    "need": null,
+    "example": "ORIG_NM='선거구 검색어'  (예시) ORIG_NM=충북 "
+   },
+   {
+    "id": "CMITS",
+    "name": "소속 위원회 목록",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "SEX_GBN_NM",
+    "name": "성별",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드",
+    "need": null,
+    "example": "MONA_CD='ZYP7962W'"
+   }
+  ],
+  "output": [
+   {
+    "id": "HG_NM",
+    "name": "이름"
+   },
+   {
+    "id": "HJ_NM",
+    "name": "한자명"
+   },
+   {
+    "id": "ENG_NM",
+    "name": "영문명칭"
+   },
+   {
+    "id": "BTH_GBN_NM",
+    "name": "음/양력"
+   },
+   {
+    "id": "BTH_DATE",
+    "name": "생년월일"
+   },
+   {
+    "id": "JOB_RES_NM",
+    "name": "직책명"
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당명"
+   },
+   {
+    "id": "ORIG_NM",
+    "name": "선거구"
+   },
+   {
+    "id": "ELECT_GBN_NM",
+    "name": "선거구구분"
+   },
+   {
+    "id": "CMIT_NM",
+    "name": "대표 위원회"
+   },
+   {
+    "id": "CMITS",
+    "name": "소속 위원회 목록"
+   },
+   {
+    "id": "REELE_GBN_NM",
+    "name": "재선"
+   },
+   {
+    "id": "UNITS",
+    "name": "당선"
+   },
+   {
+    "id": "SEX_GBN_NM",
+    "name": "성별"
+   },
+   {
+    "id": "TEL_NO",
+    "name": "전화번호"
+   },
+   {
+    "id": "E_MAIL",
+    "name": "이메일"
+   },
+   {
+    "id": "HOMEPAGE",
+    "name": "홈페이지"
+   },
+   {
+    "id": "STAFF",
+    "name": "보좌관"
+   },
+   {
+    "id": "SECRETARY",
+    "name": "선임비서관"
+   },
+   {
+    "id": "SECRETARY2",
+    "name": "비서관"
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드"
+   },
+   {
+    "id": "MEM_TITLE",
+    "name": "약력"
+   },
+   {
+    "id": "ASSEM_ADDR",
+    "name": "사무실 호실"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 정보 통합 API",
+  "infaId": "OOWY4R001216HX11439",
+  "service": "ALLNAMEMBER",
+  "urls": [
+   {
+    "name": "국회의원정보통합API",
+    "service": "ALLNAMEMBER"
+   }
+  ],
+  "request": [
+   {
+    "id": "NAAS_CD",
+    "name": "국회의원코드",
+    "need": null,
+    "example": "NAAS_CD='국회의원코드 검색어'  (예시) NAAS_CD=D2V1"
+   },
+   {
+    "id": "NAAS_NM",
+    "name": "국회의원명",
+    "need": null,
+    "example": "NAAS_NM='국회의원명 검색어'  (예시) NAAS_NM=갈봉근"
+   },
+   {
+    "id": "PLPT_NM",
+    "name": "정당명",
+    "need": null,
+    "example": "PLPT_NM='정당명 검색어'  (예시) PLPT_NM=유신정우"
+   },
+   {
+    "id": "BLNG_CMIT_NM",
+    "name": "소속위원회명",
+    "need": null,
+    "example": "BLNG_CMIT_NM='소속위원회명 검색어'  (예시) BLNG_CMIT_NM=법제사법"
+   }
+  ],
+  "output": [
+   {
+    "id": "NAAS_CD",
+    "name": "국회의원코드"
+   },
+   {
+    "id": "NAAS_NM",
+    "name": "국회의원명"
+   },
+   {
+    "id": "NAAS_CH_NM",
+    "name": "국회의원한자명"
+   },
+   {
+    "id": "NAAS_EN_NM",
+    "name": "국회의원영문명"
+   },
+   {
+    "id": "BIRDY_DIV_CD",
+    "name": "생일구분코드"
+   },
+   {
+    "id": "BIRDY_DT",
+    "name": "생일일자"
+   },
+   {
+    "id": "DTY_NM",
+    "name": "직책명"
+   },
+   {
+    "id": "PLPT_NM",
+    "name": "정당명"
+   },
+   {
+    "id": "ELECD_NM",
+    "name": "선거구명"
+   },
+   {
+    "id": "ELECD_DIV_NM",
+    "name": "선거구구분명"
+   },
+   {
+    "id": "CMIT_NM",
+    "name": "위원회명"
+   },
+   {
+    "id": "BLNG_CMIT_NM",
+    "name": "소속위원회명"
+   },
+   {
+    "id": "RLCT_DIV_NM",
+    "name": "재선구분명"
+   },
+   {
+    "id": "GTELT_ERACO",
+    "name": "당선대수"
+   },
+   {
+    "id": "NTR_DIV",
+    "name": "성별"
+   },
+   {
+    "id": "NAAS_TEL_NO",
+    "name": "전화번호"
+   },
+   {
+    "id": "NAAS_EMAIL_ADDR",
+    "name": "국회의원이메일주소"
+   },
+   {
+    "id": "NAAS_HP_URL",
+    "name": "국회의원홈페이지URL"
+   },
+   {
+    "id": "AIDE_NM",
+    "name": "보좌관"
+   },
+   {
+    "id": "CHF_SCRT_NM",
+    "name": "비서관"
+   },
+   {
+    "id": "SCRT_NM",
+    "name": "비서"
+   },
+   {
+    "id": "BRF_HST",
+    "name": "약력"
+   },
+   {
+    "id": "OFFM_RNUM_NO",
+    "name": "사무실 호실"
+   },
+   {
+    "id": "NAAS_PIC",
+    "name": "국회의원사진"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회 위원 명단",
+  "infaId": "OCAJQ4001000LI18751",
+  "service": "nktulghcadyhmiqxi",
+  "urls": [
+   {
+    "name": "위원회위원연락처",
+    "service": "nktulghcadyhmiqxi"
+   }
+  ],
+  "request": [
+   {
+    "id": "DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "DEPT_CD='9700546'"
+   },
+   {
+    "id": "DEPT_NM",
+    "name": "위원회명",
+    "need": null,
+    "example": "DEPT_NM='위원회명 검색어'  (예시) DEPT_NM=감사원장 "
+   },
+   {
+    "id": "JOB_RES_NM",
+    "name": "구성",
+    "need": null,
+    "example": "JOB_RES_NM='위원장'"
+   },
+   {
+    "id": "HG_NM",
+    "name": "위원명",
+    "need": null,
+    "example": "HG_NM='황희'"
+   },
+   {
+    "id": "ORIG_NM",
+    "name": "선거구",
+    "need": null,
+    "example": "ORIG_NM='선거구 검색어'  (예시) ORIG_NM=충북 "
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당",
+    "need": null,
+    "example": "POLY_NM='정당 검색어'  (예시) POLY_NM=정의당"
+   },
+   {
+    "id": "ASSEM_TEL",
+    "name": "전화번호",
+    "need": null,
+    "example": "ASSEM_TEL='국회) 784-6396 광명) 2682-0415'"
+   },
+   {
+    "id": "ASSEM_EMAIL",
+    "name": "이메일",
+    "need": null,
+    "example": "ASSEM_EMAIL='yyd0415v@naver.com'"
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드",
+    "need": null,
+    "example": "MONA_CD='ZYP7962W'"
+   }
+  ],
+  "output": [
+   {
+    "id": "DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "DEPT_NM",
+    "name": "위원회명"
+   },
+   {
+    "id": "JOB_RES_NM",
+    "name": "구성"
+   },
+   {
+    "id": "HG_NM",
+    "name": "위원명"
+   },
+   {
+    "id": "ORIG_NM",
+    "name": "선거구"
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당"
+   },
+   {
+    "id": "ASSEM_TEL",
+    "name": "전화번호"
+   },
+   {
+    "id": "ASSEM_EMAIL",
+    "name": "이메일"
+   },
+   {
+    "id": "HJ_NM",
+    "name": "위원명(한자)"
+   },
+   {
+    "id": "ROOM_NO",
+    "name": "호실"
+   },
+   {
+    "id": "STAFF",
+    "name": "보좌관"
+   },
+   {
+    "id": "SECRETARY",
+    "name": "비서관"
+   },
+   {
+    "id": "SECRETARY2",
+    "name": "비서"
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회 현황 정보",
+  "infaId": "O2Q4ZT001004PV11014",
+  "service": "nxrvzonlafugpqjuh",
+  "urls": [
+   {
+    "name": "위원회현황정보",
+    "service": "nxrvzonlafugpqjuh"
+   }
+  ],
+  "request": [
+   {
+    "id": "CMT_DIV_NM",
+    "name": "위원회구분",
+    "need": null,
+    "example": "CMT_DIV_NM='위원회구분 검색어'  (예시) CMT_DIV_NM=특별위원"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "HR_DEPT_CD='9700546'"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회",
+    "need": null,
+    "example": "COMMITTEE_NAME='위원회 검색어'  (예시) COMMITTEE_NAME=과학기술"
+   },
+   {
+    "id": "HG_NM",
+    "name": "위원장",
+    "need": null,
+    "example": "HG_NM='위원장 검색어'  (예시) HG_NM=홍익표 "
+   },
+   {
+    "id": "HG_NM_LIST",
+    "name": "간사",
+    "need": null,
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "CMT_DIV_CD",
+    "name": "위원회구분코드"
+   },
+   {
+    "id": "CMT_DIV_NM",
+    "name": "위원회구분"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회"
+   },
+   {
+    "id": "HG_NM",
+    "name": "위원장"
+   },
+   {
+    "id": "HG_NM_LIST",
+    "name": "간사"
+   },
+   {
+    "id": "LIMIT_CNT",
+    "name": "위원정수"
+   },
+   {
+    "id": "CURR_CNT",
+    "name": "현원"
+   },
+   {
+    "id": "POLY99_CNT",
+    "name": "비교섭단체위원수"
+   },
+   {
+    "id": "POLY_CNT",
+    "name": "교섭단체위원수"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 상임위 활동",
+  "infaId": "OVW2NU000937WK15521",
+  "service": "nuvypcdgahexhvrjt",
+  "urls": [
+   {
+    "name": "20대 국회의원상임위활동",
+    "service": "nuvypcdgahexhvrjt"
+   }
+  ],
+  "request": [
+   {
+    "id": "DAE_NUM",
+    "name": "대수",
+    "need": "Y",
+    "example": "DAE_NUM='21'"
+   },
+   {
+    "id": "SES_NUM",
+    "name": "회기",
+    "need": null,
+    "example": "SES_NUM='제9회'"
+   },
+   {
+    "id": "DEGREE_NUM",
+    "name": "차수",
+    "need": null,
+    "example": "DEGREE_NUM='차수 검색어'  (예시) DEGREE_NUM=제9차"
+   },
+   {
+    "id": "COMM_NAME",
+    "name": "위원회",
+    "need": null,
+    "example": "COMM_NAME='위원회 검색어'  (예시) COMM_NAME=환경소위"
+   },
+   {
+    "id": "CONF_DATE",
+    "name": "회의일",
+    "need": null,
+    "example": "CONF_DATE='2021-11-29'"
+   },
+   {
+    "id": "CLASS_NAME",
+    "name": "회의종류",
+    "need": null,
+    "example": "CLASS_NAME='회의종류 검색어'  (예시) CLASS_NAME=특별위원"
+   }
+  ],
+  "output": [
+   {
+    "id": "DAE_NUM",
+    "name": "대수"
+   },
+   {
+    "id": "SES_NUM",
+    "name": "회기"
+   },
+   {
+    "id": "DEGREE_NUM",
+    "name": "차수"
+   },
+   {
+    "id": "COMM_NAME",
+    "name": "위원회"
+   },
+   {
+    "id": "CONF_DATE",
+    "name": "회의일"
+   },
+   {
+    "id": "BILL_URL",
+    "name": "안건보기"
+   },
+   {
+    "id": "CLASS_NAME",
+    "name": "회의종류"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 발의법률안",
+  "infaId": "OK7XM1000938DS17215",
+  "service": "nzmimeepazxkubdpn",
+  "urls": [
+   {
+    "name": "21대 국회 국회의원발의법률안",
+    "service": "nzmimeepazxkubdpn"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": null,
+    "example": "BILL_ID='PRC_Z2Z1Z0Z3X2L4M0H9A2V6K5R0V7P2H1'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2113663'"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "법률안명",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "COMMITTEE",
+    "name": "소관위원회",
+    "need": null,
+    "example": "COMMITTEE='소관위원회 검색어'  (예시) COMMITTEE=2012년 "
+   },
+   {
+    "id": "PROC_RESULT",
+    "name": "본회의심의결과",
+    "need": null,
+    "example": "PROC_RESULT='대안반영폐기'"
+   },
+   {
+    "id": "AGE",
+    "name": "대수",
+    "need": "Y",
+    "example": "AGE='21'"
+   },
+   {
+    "id": "PROPOSER",
+    "name": "제안자",
+    "need": null,
+    "example": "PROPOSER='제안자 검색어'  (예시) PROPOSER=강경식의원 "
+   },
+   {
+    "id": "COMMITTEE_ID",
+    "name": "소관위원회ID",
+    "need": null,
+    "example": "COMMITTEE_ID='9700516'"
+   }
+  ],
+  "output": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "법률안명"
+   },
+   {
+    "id": "COMMITTEE",
+    "name": "소관위원회"
+   },
+   {
+    "id": "PROPOSE_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "PROC_RESULT",
+    "name": "본회의심의결과"
+   },
+   {
+    "id": "AGE",
+    "name": "대수"
+   },
+   {
+    "id": "DETAIL_LINK",
+    "name": "상세페이지"
+   },
+   {
+    "id": "PROPOSER",
+    "name": "제안자"
+   },
+   {
+    "id": "MEMBER_LIST",
+    "name": "제안자목록링크"
+   },
+   {
+    "id": "LAW_PROC_DT",
+    "name": "법사위처리일"
+   },
+   {
+    "id": "LAW_PROC_RESULT_CD",
+    "name": "법사위처리결과"
+   },
+   {
+    "id": "RST_MONA_CD",
+    "name": "대표발의자코드"
+   },
+   {
+    "id": "LAW_PRESENT_DT",
+    "name": "법사위상정일"
+   },
+   {
+    "id": "LAW_SUBMIT_DT",
+    "name": "법사위회부일"
+   },
+   {
+    "id": "CMT_PROC_RESULT_CD",
+    "name": "소관위처리결과"
+   },
+   {
+    "id": "CMT_PROC_DT",
+    "name": "소관위처리일"
+   },
+   {
+    "id": "CMT_PRESENT_DT",
+    "name": "소관위상정일"
+   },
+   {
+    "id": "COMMITTEE_DT",
+    "name": "소관위회부일"
+   },
+   {
+    "id": "PROC_DT",
+    "name": "의결일"
+   },
+   {
+    "id": "COMMITTEE_ID",
+    "name": "소관위원회ID"
+   },
+   {
+    "id": "PUBL_MONA_CD",
+    "name": "공동발의자코드"
+   },
+   {
+    "id": "RST_PROPOSER",
+    "name": "대표발의자"
+   },
+   {
+    "id": "PUBL_PROPOSER",
+    "name": "공동발의자"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안정보 통합 API",
+  "infaId": "OOWY4R001216HX11536",
+  "service": "ALLBILLV2",
+  "urls": [
+   {
+    "name": "21대 의안정보",
+    "service": "ALLBILLV2"
+   }
+  ],
+  "request": [
+   {
+    "id": "ERACO",
+    "name": "대수",
+    "need": "Y",
+    "example": "ERACO='제22대'"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": null,
+    "example": "BILL_ID='PRC_L2J3K0I5Q1R1P0P9O4P2N1N6V1W8U9'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2123836'"
+   },
+   {
+    "id": "BILL_KND",
+    "name": "의안종류",
+    "need": null,
+    "example": "BILL_KND='의안종류 검색어'  (예시) BILL_KND=법률안"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명",
+    "need": null,
+    "example": "BILL_NM='의안명 검색어'  (예시) BILL_NM=환경친화"
+   },
+   {
+    "id": "PPSR_KND",
+    "name": "제안자구분",
+    "need": null,
+    "example": "PPSR_KND='제안자구분 검색어'  (예시) PPSR_KND=의원"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일",
+    "need": null,
+    "example": "PPSL_DT='제안일 검색어'  (예시) PPSL_DT=2023"
+   },
+   {
+    "id": "JRCMIT_NM",
+    "name": "소관위원회명",
+    "need": null,
+    "example": "JRCMIT_NM='소관위원회명 검색어'  (예시) JRCMIT_NM=교육위원"
+   },
+   {
+    "id": "RGS_CONF_RSLT",
+    "name": "본회의 심의결과",
+    "need": null,
+    "example": "RGS_CONF_RSLT='본회의 심의결과 검색어'  (예시) RGS_CONF_RSLT=원안가결"
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_KND",
+    "name": "의안종류"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSR_KND",
+    "name": "제안자구분"
+   },
+   {
+    "id": "PPSR_NM",
+    "name": "제안자명"
+   },
+   {
+    "id": "PPSL_SESS",
+    "name": "제안회기"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "JRCMIT_NM",
+    "name": "소관위원회명"
+   },
+   {
+    "id": "JRCMIT_CMMT_DT",
+    "name": "소관위원회 회부일"
+   },
+   {
+    "id": "JRCMIT_PRSNT_DT",
+    "name": "소관위원회 상정일"
+   },
+   {
+    "id": "JRCMIT_PROC_DT",
+    "name": "소관위원회 처리일"
+   },
+   {
+    "id": "JRCMIT_PROC_RSLT",
+    "name": "소관위원회 처리결과"
+   },
+   {
+    "id": "LAW_CMMT_DT",
+    "name": "법사위 체계자구심사 회부일"
+   },
+   {
+    "id": "LAW_PRSNT_DT",
+    "name": "법사위 체계자구심사 상정일"
+   },
+   {
+    "id": "LAW_PROC_DT",
+    "name": "법사위 체계자구심사 처리일"
+   },
+   {
+    "id": "LAW_PROC_RSLT",
+    "name": "법사위 체계자구심사 처리결과"
+   },
+   {
+    "id": "RGS_PRSNT_DT",
+    "name": "본회의 심의 상정일"
+   },
+   {
+    "id": "RGS_RSLN_DT",
+    "name": "본회의 심의 의결일"
+   },
+   {
+    "id": "RGS_CONF_NM",
+    "name": "본회의 심의 회의명"
+   },
+   {
+    "id": "RGS_CONF_RSLT",
+    "name": "본회의 심의결과"
+   },
+   {
+    "id": "GVRN_TRSF_DT",
+    "name": "정부 이송일"
+   },
+   {
+    "id": "PROM_LAW_NM",
+    "name": "공포 법률명"
+   },
+   {
+    "id": "PROM_DT",
+    "name": "공포일"
+   },
+   {
+    "id": "PROM_NO",
+    "name": "공포번호"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   },
+   {
+    "id": "PASSGUBN",
+    "name": "처리구분"
+   },
+   {
+    "id": "PROC_STAGE_CD",
+    "name": "심사진행상태"
+   },
+   {
+    "id": "HWP_URL1",
+    "name": "검토보고서, 심사보고서"
+   },
+   {
+    "id": "HWP_URL2",
+    "name": "체계자구검토보고서"
+   },
+   {
+    "id": "PDF_URL1",
+    "name": "검토보고서, 심사보고서"
+   },
+   {
+    "id": "PDF_URL2",
+    "name": "체계자구검토보고서"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안 상세정보",
+  "infaId": "OOWY4R001216HX11461",
+  "service": "BILLINFODETAIL",
+  "urls": [
+   {
+    "name": "의안 상세정보",
+    "service": "BILLINFODETAIL"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": "Y",
+    "example": "BILL_ID='13987'"
+   }
+  ],
+  "output": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSR_KIND",
+    "name": "제안자구분"
+   },
+   {
+    "id": "PPSR",
+    "name": "제안자"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "PPSL_SESS",
+    "name": "제안회기"
+   },
+   {
+    "id": "JRCMIT_NM",
+    "name": "소관위원회명"
+   },
+   {
+    "id": "JRCMIT_CMMT_DT",
+    "name": "소관위원회 회부일"
+   },
+   {
+    "id": "JRCMIT_PRSNT_DT",
+    "name": "소관위원회 상정일"
+   },
+   {
+    "id": "JRCMIT_PROC_DT",
+    "name": "소관위원회 처리일"
+   },
+   {
+    "id": "JRCMIT_PROC_RSLT",
+    "name": "소관위원회 처리결과"
+   },
+   {
+    "id": "LAW_CMMT_DT",
+    "name": "법사위 체계자구심사 회부일"
+   },
+   {
+    "id": "LAW_PRSNT_DT",
+    "name": "법사위 체계자구심사 상정일"
+   },
+   {
+    "id": "LAW_PROC_DT",
+    "name": "법사위 체계자구심사 처리일"
+   },
+   {
+    "id": "LAW_PROC_RSLT",
+    "name": "법사위 체계자구심사 처리결과"
+   },
+   {
+    "id": "RGS_PRSNT_DT",
+    "name": "본회의 심의 상정일"
+   },
+   {
+    "id": "RGS_RSLN_DT",
+    "name": "본회의 심의 의결일"
+   },
+   {
+    "id": "RGS_CONF_NM",
+    "name": "본회의 심의 회의명"
+   },
+   {
+    "id": "RGS_CONF_RSLT",
+    "name": "본회의 심의결과"
+   },
+   {
+    "id": "GVRN_TRSF_DT",
+    "name": "정부 이송일"
+   },
+   {
+    "id": "PROM_LAW_NM",
+    "name": "공포 법률명"
+   },
+   {
+    "id": "PROM_DT",
+    "name": "공포일"
+   },
+   {
+    "id": "PROM_NO",
+    "name": "공포번호"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안 제안자정보",
+  "infaId": "OOWY4R001216HX11460",
+  "service": "BILLINFOPPSR",
+  "urls": [
+   {
+    "name": "의안 제안자정보",
+    "service": "BILLINFOPPSR"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": "Y",
+    "example": "BILL_ID='PRC_U2O3L0J7N2P7I1M4U0D6M5Y6H2Y3P1'"
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "PPSR_KIND",
+    "name": "제안자구분"
+   },
+   {
+    "id": "PPSR_CN",
+    "name": "제안자설명"
+   },
+   {
+    "id": "PPSR_POLY_NM",
+    "name": "제안자정당명"
+   },
+   {
+    "id": "PPSR_NM",
+    "name": "제안자명"
+   },
+   {
+    "id": "PPSR_CH_NM",
+    "name": "제안자한자명"
+   },
+   {
+    "id": "REP_DIV",
+    "name": "대표발의 구분"
+   },
+   {
+    "id": "PPSR_ROLE",
+    "name": "역할"
+   },
+   {
+    "id": "NASS_CD",
+    "name": "국회의원코드"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안 접수목록",
+  "infaId": "OOWY4R001216HX11537",
+  "service": "BILLRCPV2",
+  "urls": [
+   {
+    "name": "의안 접수목록",
+    "service": "BILLRCPV2"
+   }
+  ],
+  "request": [
+   {
+    "id": "ERACO",
+    "name": "대수",
+    "need": null,
+    "example": "ERACO='제15대'"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": "Y",
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_KIND",
+    "name": "의안 종류"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSR_KIND",
+    "name": "제안자 구분"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "PROC_RSLT",
+    "name": "처리결과"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   },
+   {
+    "id": "BOOK_HWPURL",
+    "name": "의안원문 HWP파일 경로"
+   },
+   {
+    "id": "COST_HWPURL",
+    "name": "비용추계서 HWP파일 경로"
+   },
+   {
+    "id": "PPSR_NM",
+    "name": "제안자명"
+   },
+   {
+    "id": "WTHD_DT",
+    "name": "철회일자"
+   },
+   {
+    "id": "BOOK_PDFURL",
+    "name": "의안원문 PDF파일 경로"
+   },
+   {
+    "id": "COST_PDFURL",
+    "name": "비용추계서 PDF파일 경로"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "법률안 제안이유 및 주요내용",
+  "infaId": "OS46YD0012559515463",
+  "service": "BPMBILLSUMMARY",
+  "urls": [
+   {
+    "name": "법률안 주요내용",
+    "service": "BPMBILLSUMMARY"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": "Y",
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "SUMMARY",
+    "name": "주요내용"
+   },
+   {
+    "id": "AGE",
+    "name": "대수"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "법률안 심사 및 처리(의안검색)",
+  "infaId": "O4K6HM0012064I15889",
+  "service": "TVBPMBILL11",
+  "urls": [
+   {
+    "name": "21대 법률안심사 및 처리의안",
+    "service": "TVBPMBILL11"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": null,
+    "example": "BILL_ID='PRC_Z2Z1Z0Z3X2L4M0H9A2V6K5R0V7P2H1'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2114286'"
+   },
+   {
+    "id": "AGE",
+    "name": "대",
+    "need": "Y",
+    "example": "AGE='21'"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명(한글)",
+    "need": null,
+    "example": "BILL_NAME='의안명(한글) 검색어'  (예시) BILL_NAME=\"80년"
+   },
+   {
+    "id": "PROPOSER",
+    "name": "제안자",
+    "need": null,
+    "example": "PROPOSER='제안자 검색어'  (예시) PROPOSER=2012년 "
+   },
+   {
+    "id": "PROPOSER_KIND",
+    "name": "제안자구분",
+    "need": null,
+    "example": "PROPOSER_KIND='정부'"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드",
+    "need": null,
+    "example": "CURR_COMMITTEE_ID='B002368'"
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위",
+    "need": null,
+    "example": "CURR_COMMITTEE='소관위 검색어'  (예시) CURR_COMMITTEE=2002"
+   },
+   {
+    "id": "PROC_DT",
+    "name": "의결일",
+    "need": null,
+    "example": "PROC_DT='2021-12-31'"
+   },
+   {
+    "id": "PROC_RESULT_CD",
+    "name": "본회의심의결과",
+    "need": null,
+    "example": "PROC_RESULT_CD='회기불계속폐기'"
+   },
+   {
+    "id": "BILL_ID_REF",
+    "name": "참조의안코드",
+    "need": null,
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "AGE",
+    "name": "대"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명(한글)"
+   },
+   {
+    "id": "PROPOSER",
+    "name": "제안자"
+   },
+   {
+    "id": "PROPOSER_KIND",
+    "name": "제안자구분"
+   },
+   {
+    "id": "PROPOSE_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드"
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위"
+   },
+   {
+    "id": "COMMITTEE_DT",
+    "name": "소관위회부일"
+   },
+   {
+    "id": "COMMITTEE_PROC_DT",
+    "name": "위원회심사_처리일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "의안상세정보_URL"
+   },
+   {
+    "id": "RST_PROPOSER",
+    "name": "대표발의자"
+   },
+   {
+    "id": "LAW_PROC_RESULT_CD",
+    "name": "법사위처리결과"
+   },
+   {
+    "id": "LAW_PROC_DT",
+    "name": "법사위처리일"
+   },
+   {
+    "id": "LAW_PRESENT_DT",
+    "name": "법사위상정일"
+   },
+   {
+    "id": "LAW_SUBMIT_DT",
+    "name": "법사위회부일"
+   },
+   {
+    "id": "CMT_PROC_RESULT_CD",
+    "name": "소관위처리결과"
+   },
+   {
+    "id": "CMT_PROC_DT",
+    "name": "소관위처리일"
+   },
+   {
+    "id": "CMT_PRESENT_DT",
+    "name": "소관위상정일"
+   },
+   {
+    "id": "PROC_DT",
+    "name": "의결일"
+   },
+   {
+    "id": "RST_MONA_CD",
+    "name": "대표발의자코드"
+   },
+   {
+    "id": "PROC_RESULT_CD",
+    "name": "본회의심의결과"
+   },
+   {
+    "id": "PASS_GUBUN",
+    "name": "의안구분"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안 위원회심사 회의정보 조회",
+  "infaId": "OOWY4R001216HX11492",
+  "service": "BILLJUDGECONF",
+  "urls": [
+   {
+    "name": "의안 위원회심사 회의정보 조회",
+    "service": "BILLJUDGECONF"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": "Y",
+    "example": "BILL_ID='PRC_J2U3K0T8M0N1D1Q7E5T9P4L3G2S1C1'"
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSR",
+    "name": "제안자"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "JRCMIT_CONF_NM",
+    "name": "소관위원회 심사 회의명"
+   },
+   {
+    "id": "JRCMIT_CONF_DT",
+    "name": "소관위원회 심사 회의일"
+   },
+   {
+    "id": "JRCMIT_CONF_RSLT",
+    "name": "소관위원회 심사 회의결과"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안 심사정보(예ㆍ결산 제외)",
+  "infaId": "OOWY4R001216HX11462",
+  "service": "BILLJUDGE",
+  "urls": [
+   {
+    "name": "의안 심사정보(예ㆍ결산 제외)",
+    "service": "BILLJUDGE"
+   }
+  ],
+  "request": [
+   {
+    "id": "ERACO",
+    "name": "대수",
+    "need": null,
+    "example": "ERACO='제18대'"
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NM",
+    "name": "의안명"
+   },
+   {
+    "id": "PPSR_KIND",
+    "name": "제안자구분"
+   },
+   {
+    "id": "PPSL_DT",
+    "name": "제안일"
+   },
+   {
+    "id": "JRCMIT_NM",
+    "name": "소관위원회명"
+   },
+   {
+    "id": "BDG_CMMT_DT",
+    "name": "소관위원회 회부일"
+   },
+   {
+    "id": "JRCMIT_PRSNT_DT",
+    "name": "소관위원회 상정일"
+   },
+   {
+    "id": "JRCMIT_PROC_DT",
+    "name": "소관위원회 처리일"
+   },
+   {
+    "id": "JRCMIT_PROC_RSLT",
+    "name": "소관위원회 처리결과"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "소위 심사정보(법률안)",
+  "infaId": "OOWY4R001216HX11542",
+  "service": "TVBPMCONFINFO",
+  "urls": [
+   {
+    "name": "22대 소위 심사정보",
+    "service": "TVBPMCONFINFO"
+   }
+  ],
+  "request": [
+   {
+    "id": "AGE",
+    "name": "대수",
+    "need": "Y",
+    "example": "AGE='22'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2206067'"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": null,
+    "example": "BILL_ID='PRC_E2D4E1L1M2K0J1J1H2I5Q4R5P4N7O9'"
+   },
+   {
+    "id": "ENROLL_TYPE",
+    "name": "소위직접회부여부",
+    "need": null,
+    "example": "ENROLL_TYPE='Y'"
+   }
+  ],
+  "output": [
+   {
+    "id": "AGE",
+    "name": "대수"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "COMMITTEE_ID",
+    "name": "위원회ID"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "소관위명"
+   },
+   {
+    "id": "SUB_COMMITTEE_NAME",
+    "name": "소위원회명"
+   },
+   {
+    "id": "PRESENT_SESSION",
+    "name": "상정회기"
+   },
+   {
+    "id": "PRESENT_CHA",
+    "name": "상정차수"
+   },
+   {
+    "id": "PROC_SESSION",
+    "name": "의결회기"
+   },
+   {
+    "id": "PROC_CHA",
+    "name": "의결차수"
+   },
+   {
+    "id": "SUBMIT_DT",
+    "name": "회부일"
+   },
+   {
+    "id": "PRESENT_DT",
+    "name": "상정일"
+   },
+   {
+    "id": "PROC_DT",
+    "name": "처리일"
+   },
+   {
+    "id": "PROC_RESULT_CD",
+    "name": "의안심의결과"
+   },
+   {
+    "id": "ENROLL_TYPE",
+    "name": "소위직접회부여부"
+   },
+   {
+    "id": "CONF_BIGO",
+    "name": "소위회부정보"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 본회의 표결정보",
+  "infaId": "OPR1MQ000998LC12535",
+  "service": "nojepdqqaweusdfbi",
+  "urls": [
+   {
+    "name": "감염병의 예방 및 관리에 관한 법률 본회의표결정보",
+    "service": "nojepdqqaweusdfbi"
+   }
+  ],
+  "request": [
+   {
+    "id": "HG_NM",
+    "name": "의원",
+    "need": null,
+    "example": "HG_NM='황희'"
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당",
+    "need": null,
+    "example": "POLY_NM='친박신당'"
+   },
+   {
+    "id": "MEMBER_NO",
+    "name": "의원번호",
+    "need": null,
+    "example": "MEMBER_NO='2100000000301'"
+   },
+   {
+    "id": "VOTE_DATE",
+    "name": "의결일자",
+    "need": null,
+    "example": "VOTE_DATE='11-NOV-21'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2113244'"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명",
+    "need": null,
+    "example": "BILL_NAME='10·27법난 피해자의 명예회복 등에 관한 법률 일부개정법률안'"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": "Y",
+    "example": "BILL_ID='PRC_Z2Z1S0W8P1O8G2A3D1E0V2Q0X2X5J3'"
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위원회",
+    "need": null,
+    "example": "CURR_COMMITTEE='가습기살균제 사고 진상규명과 피해구제 및 재발방지 대책마련을 위한 국정조사특별위원회'"
+   },
+   {
+    "id": "RESULT_VOTE_MOD",
+    "name": "표결결과",
+    "need": null,
+    "example": "RESULT_VOTE_MOD='찬성'"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드",
+    "need": null,
+    "example": "CURR_COMMITTEE_ID='9700529'"
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드",
+    "need": null,
+    "example": "MONA_CD='ZYP7962W'"
+   },
+   {
+    "id": "AGE",
+    "name": "대",
+    "need": "Y",
+    "example": "AGE='21'"
+   }
+  ],
+  "output": [
+   {
+    "id": "HG_NM",
+    "name": "의원"
+   },
+   {
+    "id": "HJ_NM",
+    "name": "한자명"
+   },
+   {
+    "id": "POLY_NM",
+    "name": "정당"
+   },
+   {
+    "id": "ORIG_NM",
+    "name": "선거구"
+   },
+   {
+    "id": "MEMBER_NO",
+    "name": "의원번호"
+   },
+   {
+    "id": "POLY_CD",
+    "name": "소속정당코드"
+   },
+   {
+    "id": "ORIG_CD",
+    "name": "선거구코드"
+   },
+   {
+    "id": "VOTE_DATE",
+    "name": "의결일자"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명"
+   },
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "LAW_TITLE",
+    "name": "법률명"
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위원회"
+   },
+   {
+    "id": "RESULT_VOTE_MOD",
+    "name": "표결결과"
+   },
+   {
+    "id": "DEPT_CD",
+    "name": "부서코드(사용안함)"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드"
+   },
+   {
+    "id": "DISP_ORDER",
+    "name": "표시정렬순서"
+   },
+   {
+    "id": "BILL_URL",
+    "name": "의안URL"
+   },
+   {
+    "id": "BILL_NAME_URL",
+    "name": "의안링크"
+   },
+   {
+    "id": "SESSION_CD",
+    "name": "회기"
+   },
+   {
+    "id": "CURRENTS_CD",
+    "name": "차수"
+   },
+   {
+    "id": "AGE",
+    "name": "대"
+   },
+   {
+    "id": "MONA_CD",
+    "name": "국회의원코드"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의안별 표결현황",
+  "infaId": "OND1KZ0009677M13515",
+  "service": "ncocpgfiaoituanbr",
+  "urls": [
+   {
+    "name": "21대 국회 의안별표결현황",
+    "service": "ncocpgfiaoituanbr"
+   }
+  ],
+  "request": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID",
+    "need": null,
+    "example": "BILL_ID='PRC_Z2Z1S0W8P1O8G2A3D1E0V2Q0X2X5J3'"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호",
+    "need": null,
+    "example": "BILL_NO='2113244'"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명",
+    "need": null,
+    "example": "BILL_NAME='의안명 검색어'  (예시) BILL_NAME=10·27법난 "
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위",
+    "need": null,
+    "example": "CURR_COMMITTEE='가습기살균제 사고 진상규명과 피해구제 및 재발방지 대책마련을 위한 국정조사특별위원회'"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드",
+    "need": null,
+    "example": "CURR_COMMITTEE_ID='9700529'"
+   },
+   {
+    "id": "PROC_RESULT_CD",
+    "name": "표결결과",
+    "need": null,
+    "example": "PROC_RESULT_CD='표결결과 검색어'  (예시) PROC_RESULT_CD=원안가결"
+   },
+   {
+    "id": "BILL_KIND_CD",
+    "name": "의안종류",
+    "need": null,
+    "example": "BILL_KIND_CD='의안종류 검색어'  (예시) BILL_KIND_CD=청원"
+   },
+   {
+    "id": "AGE",
+    "name": "대수",
+    "need": "Y",
+    "example": "AGE='21'"
+   }
+  ],
+  "output": [
+   {
+    "id": "BILL_ID",
+    "name": "의안ID"
+   },
+   {
+    "id": "PROC_DT",
+    "name": "처리일"
+   },
+   {
+    "id": "BILL_NO",
+    "name": "의안번호"
+   },
+   {
+    "id": "BILL_NAME",
+    "name": "의안명"
+   },
+   {
+    "id": "CURR_COMMITTEE",
+    "name": "소관위"
+   },
+   {
+    "id": "CURR_COMMITTEE_ID",
+    "name": "소관위코드"
+   },
+   {
+    "id": "PROC_RESULT_CD",
+    "name": "표결결과"
+   },
+   {
+    "id": "BILL_KIND_CD",
+    "name": "의안종류"
+   },
+   {
+    "id": "AGE",
+    "name": "대수"
+   },
+   {
+    "id": "MEMBER_TCNT",
+    "name": "재적의원"
+   },
+   {
+    "id": "VOTE_TCNT",
+    "name": "총투표수"
+   },
+   {
+    "id": "YES_TCNT",
+    "name": "찬성"
+   },
+   {
+    "id": "NO_TCNT",
+    "name": "반대"
+   },
+   {
+    "id": "BLANK_TCNT",
+    "name": "기권"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "의안상세정보 URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회 회의록",
+  "infaId": "OR137O001023MZ19321",
+  "service": "ncwgseseafwbuheph",
+  "urls": [
+   {
+    "name": "20대 2020년 2월 위원회회의록",
+    "service": "ncwgseseafwbuheph"
+   }
+  ],
+  "request": [
+   {
+    "id": "TITLE",
+    "name": "회의명",
+    "need": null,
+    "example": "TITLE='제10대국회 제101회 0차 국회본회의  1979년 03월 19일 '"
+   },
+   {
+    "id": "CLASS_NAME",
+    "name": "회의종류명",
+    "need": null,
+    "example": "CLASS_NAME='회의종류명 검색어'  (예시) CLASS_NAME=특별위원"
+   },
+   {
+    "id": "DAE_NUM",
+    "name": "대수",
+    "need": "Y",
+    "example": "DAE_NUM='21'"
+   },
+   {
+    "id": "COMM_NAME",
+    "name": "위원회명",
+    "need": null,
+    "example": "COMM_NAME='위원회명 검색어'  (예시) COMM_NAME=2002"
+   },
+   {
+    "id": "CONF_DATE",
+    "name": "회의날짜",
+    "need": "Y",
+    "example": "CONF_DATE='회의날짜 검색어'  (예시) CONF_DATE=2021"
+   },
+   {
+    "id": "SUB_NAME",
+    "name": "안건명",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "DEPT_CD='B002407'"
+   }
+  ],
+  "output": [
+   {
+    "id": "CONFER_NUM",
+    "name": "회의번호"
+   },
+   {
+    "id": "TITLE",
+    "name": "회의명"
+   },
+   {
+    "id": "CLASS_NAME",
+    "name": "회의종류명"
+   },
+   {
+    "id": "DAE_NUM",
+    "name": "대수"
+   },
+   {
+    "id": "COMM_NAME",
+    "name": "위원회명"
+   },
+   {
+    "id": "VODCOMM_CODE",
+    "name": "영상회의록"
+   },
+   {
+    "id": "CONF_DATE",
+    "name": "회의날짜"
+   },
+   {
+    "id": "SUB_NAME",
+    "name": "안건명"
+   },
+   {
+    "id": "VOD_LINK_URL",
+    "name": "영상회의록 링크"
+   },
+   {
+    "id": "CONF_LINK_URL",
+    "name": "요약정보 팝업"
+   },
+   {
+    "id": "PDF_LINK_URL",
+    "name": "PDF파일 링크"
+   },
+   {
+    "id": "PDF_FILE_ID",
+    "name": "회의록"
+   },
+   {
+    "id": "DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "CONF_ID",
+    "name": "회의ID"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "회의록별 상세정보",
+  "infaId": "OOWY4R001216HX11520",
+  "service": "VCONFDETAIL",
+  "urls": [
+   {
+    "name": "회의록별 상세정보",
+    "service": "VCONFDETAIL"
+   }
+  ],
+  "request": [
+   {
+    "id": "CONF_ID",
+    "name": "회의ID",
+    "need": "Y",
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "CONF_ID",
+    "name": "회의ID"
+   },
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DGR",
+    "name": "차수"
+   },
+   {
+    "id": "CONF_DT",
+    "name": "회의일자"
+   },
+   {
+    "id": "CONF_KND",
+    "name": "회의종류"
+   },
+   {
+    "id": "CMIT_NM",
+    "name": "위원회명"
+   },
+   {
+    "id": "SB_CMIT_NM",
+    "name": "소위원회명"
+   },
+   {
+    "id": "CONF_PLC",
+    "name": "회의장소"
+   },
+   {
+    "id": "BG_PTM",
+    "name": "시작시간"
+   },
+   {
+    "id": "ED_PTM",
+    "name": "종료시간"
+   },
+   {
+    "id": "CONF_PTM",
+    "name": "회의시간"
+   },
+   {
+    "id": "HR_HRG_YN",
+    "name": "인사청문회여부"
+   },
+   {
+    "id": "PBHRG_YN",
+    "name": "공청회여부"
+   },
+   {
+    "id": "HRG_YN",
+    "name": "청문회여부"
+   },
+   {
+    "id": "SITG_YN",
+    "name": "연석회의여부"
+   },
+   {
+    "id": "RMND_SPH_YN",
+    "name": "대통령위임연설여부"
+   },
+   {
+    "id": "RDJM_SPH_YN",
+    "name": "대통령시정연설여부"
+   },
+   {
+    "id": "FRNGUS_SPH_YN",
+    "name": "외빈연설여부"
+   },
+   {
+    "id": "DOWN_URL",
+    "name": "다운로드 URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "회의별 안건목록",
+  "infaId": "OOWY4R001216HX11524",
+  "service": "VCONFBLLLIST",
+  "urls": [
+   {
+    "name": "회의별 안건목록",
+    "service": "VCONFBLLLIST"
+   }
+  ],
+  "request": [
+   {
+    "id": "CONF_ID",
+    "name": "회의ID",
+    "need": "Y",
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "CONF_ID",
+    "name": "회의ID"
+   },
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DGR",
+    "name": "차수"
+   },
+   {
+    "id": "BLL_NO",
+    "name": "안건 번호"
+   },
+   {
+    "id": "BLL_NM",
+    "name": "안건명"
+   },
+   {
+    "id": "BLL_LV",
+    "name": "안건 레벨"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "영상회의록 목록",
+  "infaId": "OOWY4R001216HX11424",
+  "service": "WEBCASTVCONF",
+  "urls": [
+   {
+    "name": "영상회의록목록",
+    "service": "WEBCASTVCONF"
+   }
+  ],
+  "request": [
+   {
+    "id": "ERACO",
+    "name": "대수",
+    "need": null,
+    "example": "ERACO='대수 검색어'  (예시) ERACO=제21대"
+   },
+   {
+    "id": "CONF_DT",
+    "name": "회의일자",
+    "need": null,
+    "example": "CONF_DT='회의일자 검색어'  (예시) CONF_DT=2023"
+   }
+  ],
+  "output": [
+   {
+    "id": "ERACO",
+    "name": "대수"
+   },
+   {
+    "id": "CONF_DT",
+    "name": "회의일자"
+   },
+   {
+    "id": "CONF_PTM",
+    "name": "회의시간"
+   },
+   {
+    "id": "CONF_NM",
+    "name": "회의명"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 영상회의록(발언영상)",
+  "infaId": "O3VTTM0010223D15681",
+  "service": "npeslxqbanwkimebr",
+  "urls": [
+   {
+    "name": "20대 2020년 2월 18일 국회의원 영상회의록 발언영상",
+    "service": "npeslxqbanwkimebr"
+   }
+  ],
+  "request": [
+   {
+    "id": "CT1",
+    "name": "대수",
+    "need": "Y",
+    "example": "CT1='21'"
+   },
+   {
+    "id": "TAKING_DATE",
+    "name": "회의일자",
+    "need": "Y",
+    "example": "TAKING_DATE='회의일자 검색어'  (예시) TAKING_DATE=2021"
+   },
+   {
+    "id": "TITLE",
+    "name": "회의제목",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "ESSENTIAL_PERSON",
+    "name": "발언자",
+    "need": null,
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "CT1",
+    "name": "대수"
+   },
+   {
+    "id": "CT2",
+    "name": "회"
+   },
+   {
+    "id": "CT3",
+    "name": "차"
+   },
+   {
+    "id": "TAKING_DATE",
+    "name": "회의일자"
+   },
+   {
+    "id": "TITLE",
+    "name": "회의제목"
+   },
+   {
+    "id": "ESSENTIAL_PERSON",
+    "name": "발언자"
+   },
+   {
+    "id": "REC_TIME",
+    "name": "재생시간"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크주소"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회일정 통합 API",
+  "infaId": "OOWY4R001216HX11437",
+  "service": "ALLSCHEDULE",
+  "urls": [
+   {
+    "name": "2025-02-20일 국회일정",
+    "service": "ALLSCHEDULE"
+   }
+  ],
+  "request": [
+   {
+    "id": "SCH_KIND",
+    "name": "일정종류",
+    "need": null,
+    "example": "SCH_KIND='일정종류 검색어'  (예시) SCH_KIND=국회행사"
+   },
+   {
+    "id": "SCH_DT",
+    "name": "일자",
+    "need": null,
+    "example": "SCH_DT='일자 검색어'  (예시) SCH_DT=2023"
+   }
+  ],
+  "output": [
+   {
+    "id": "SCH_KIND",
+    "name": "일정종류"
+   },
+   {
+    "id": "SCH_CN",
+    "name": "일정내용"
+   },
+   {
+    "id": "SCH_DT",
+    "name": "일자"
+   },
+   {
+    "id": "SCH_TM",
+    "name": "시간"
+   },
+   {
+    "id": "CONF_DIV",
+    "name": "회의구분"
+   },
+   {
+    "id": "CMIT_NM",
+    "name": "위원회명"
+   },
+   {
+    "id": "CONF_SESS",
+    "name": "회의회기"
+   },
+   {
+    "id": "CONF_DGR",
+    "name": "회의차수"
+   },
+   {
+    "id": "EV_INST_NM",
+    "name": "행사주체자"
+   },
+   {
+    "id": "EV_PLC",
+    "name": "행사장소"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회별 일정",
+  "infaId": "OHXILX000958DD14523",
+  "service": "nrsldhjpaemrmolla",
+  "urls": [
+   {
+    "name": "22대 국회 전체위원회일정",
+    "service": "nrsldhjpaemrmolla"
+   }
+  ],
+  "request": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자",
+    "need": null,
+    "example": "MEETING_DATE='회의일자 검색어'  (예시) MEETING_DATE=2021"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간",
+    "need": null,
+    "example": "MEETING_TIME='회의시간 미정'"
+   },
+   {
+    "id": "SESS",
+    "name": "회기",
+    "need": null,
+    "example": "SESS='제391회국회(정기회)'"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수",
+    "need": null,
+    "example": "DEGREE='제9차'"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분",
+    "need": null,
+    "example": "TITLE='공공의료기관실태파악소위'"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명",
+    "need": null,
+    "example": "COMMITTEE_NAME='위원회 명 검색어'  (예시) COMMITTEE_NAME=2014"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수",
+    "need": "Y",
+    "example": "UNIT_CD='100021'"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "HR_DEPT_CD='9700513'"
+   }
+  ],
+  "output": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명"
+   },
+   {
+    "id": "LINK_URL2",
+    "name": "상세_URL"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수"
+   },
+   {
+    "id": "UNIT_NM",
+    "name": "대수"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "ANGUN",
+    "name": "안건"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회별 전체회의 일정",
+  "infaId": "O27DU0000960M511942",
+  "service": "nttmdfdcaakvibdar",
+  "urls": [
+   {
+    "name": "위원회별전체회의일정",
+    "service": "nttmdfdcaakvibdar"
+   }
+  ],
+  "request": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자",
+    "need": null,
+    "example": "MEETING_DATE='회의일자 검색어'  (예시) MEETING_DATE=2021"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간",
+    "need": null,
+    "example": "MEETING_TIME='회의시간 미정'"
+   },
+   {
+    "id": "SESS",
+    "name": "회기",
+    "need": null,
+    "example": "SESS='회기 검색어'  (예시) SESS=제391"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수",
+    "need": null,
+    "example": "DEGREE='차수 검색어'  (예시) DEGREE=제9차"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분",
+    "need": null,
+    "example": "TITLE='구분 검색어'  (예시) TITLE=공공의료"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명",
+    "need": null,
+    "example": "COMMITTEE_NAME='위원회 명 검색어'  (예시) COMMITTEE_NAME=2014"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수",
+    "need": "Y",
+    "example": "UNIT_CD='100021'"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "HR_DEPT_CD='9700513'"
+   }
+  ],
+  "output": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명"
+   },
+   {
+    "id": "LINK_URL2",
+    "name": "상세_URL"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수"
+   },
+   {
+    "id": "UNIT_NM",
+    "name": "대수"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "ANGUN",
+    "name": "안건"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회별 소위원회 일정",
+  "infaId": "O4UN9N000961PS11812",
+  "service": "nrkqqbvfanfybishu",
+  "urls": [
+   {
+    "name": "위원회별소위원회일정",
+    "service": "nrkqqbvfanfybishu"
+   }
+  ],
+  "request": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자",
+    "need": null,
+    "example": "MEETING_DATE='2021-12-06'"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간",
+    "need": null,
+    "example": "MEETING_TIME='회의시간 미정'"
+   },
+   {
+    "id": "SESS",
+    "name": "회기",
+    "need": null,
+    "example": "SESS='회기 검색어'  (예시) SESS=제391"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수",
+    "need": null,
+    "example": "DEGREE='차수 검색어'  (예시) DEGREE=제9차"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분",
+    "need": null,
+    "example": "TITLE='구분 검색어'  (예시) TITLE=공공의료"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명",
+    "need": null,
+    "example": "COMMITTEE_NAME='위원회 명 검색어'  (예시) COMMITTEE_NAME=2014"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수",
+    "need": "Y",
+    "example": "UNIT_CD='100021'"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "HR_DEPT_CD='9700513'"
+   }
+  ],
+  "output": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명"
+   },
+   {
+    "id": "LINK_URL2",
+    "name": "상세_URL"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수"
+   },
+   {
+    "id": "UNIT_NM",
+    "name": "대수"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "ANGUN",
+    "name": "안건"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "위원회별 공청회 일정",
+  "infaId": "OKBFLN000963SS13091",
+  "service": "napvpafracrdkxmoq",
+  "urls": [
+   {
+    "name": "위원회별공청회일정",
+    "service": "napvpafracrdkxmoq"
+   }
+  ],
+  "request": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자",
+    "need": null,
+    "example": "MEETING_DATE='2021-12-06'"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간",
+    "need": null,
+    "example": "MEETING_TIME='회의시간 미정'"
+   },
+   {
+    "id": "SESS",
+    "name": "회기",
+    "need": null,
+    "example": "SESS='회기 검색어'  (예시) SESS=제391"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수",
+    "need": null,
+    "example": "DEGREE='차수 검색어'  (예시) DEGREE=제9차"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분",
+    "need": null,
+    "example": "TITLE='구분 검색어'  (예시) TITLE=공공의료"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명",
+    "need": null,
+    "example": "COMMITTEE_NAME='위원회 명 검색어'  (예시) COMMITTEE_NAME=2014"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수",
+    "need": "Y",
+    "example": "UNIT_CD='100021'"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드",
+    "need": null,
+    "example": "HR_DEPT_CD='9700513'"
+   }
+  ],
+  "output": [
+   {
+    "id": "MEETING_DATE",
+    "name": "회의일자"
+   },
+   {
+    "id": "MEETING_TIME",
+    "name": "시간"
+   },
+   {
+    "id": "SESS",
+    "name": "회기"
+   },
+   {
+    "id": "DEGREE",
+    "name": "차수"
+   },
+   {
+    "id": "TITLE",
+    "name": "구분"
+   },
+   {
+    "id": "COMMITTEE_NAME",
+    "name": "위원회 명"
+   },
+   {
+    "id": "LINK_URL2",
+    "name": "상세_URL"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수"
+   },
+   {
+    "id": "UNIT_NM",
+    "name": "대수"
+   },
+   {
+    "id": "HR_DEPT_CD",
+    "name": "위원회코드"
+   },
+   {
+    "id": "ANGUN",
+    "name": "안건"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "본회의 일정",
+  "infaId": "ORDPSW001070QH19059",
+  "service": "nekcaiymatialqlxr",
+  "urls": [
+   {
+    "name": "22대 본회의일정",
+    "service": "nekcaiymatialqlxr"
+   }
+  ],
+  "request": [
+   {
+    "id": "MEETINGSESSION",
+    "name": "회기",
+    "need": null,
+    "example": "MEETINGSESSION='회기 검색어'  (예시) MEETINGSESSION=제391"
+   },
+   {
+    "id": "CHA",
+    "name": "차수",
+    "need": null,
+    "example": "CHA='차수 검색어'  (예시) CHA=제8차"
+   },
+   {
+    "id": "TITLE",
+    "name": "제목",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "MEETTING_DATE",
+    "name": "일자",
+    "need": null,
+    "example": "MEETTING_DATE='2021-11-11'"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수",
+    "need": "Y",
+    "example": "UNIT_CD='100021'"
+   }
+  ],
+  "output": [
+   {
+    "id": "MEETINGSESSION",
+    "name": "회기"
+   },
+   {
+    "id": "CHA",
+    "name": "차수"
+   },
+   {
+    "id": "TITLE",
+    "name": "제목"
+   },
+   {
+    "id": "MEETTING_DATE",
+    "name": "일자"
+   },
+   {
+    "id": "MEETTING_TIME",
+    "name": "일시"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크주소"
+   },
+   {
+    "id": "UNIT_CD",
+    "name": "대수"
+   },
+   {
+    "id": "UNIT_NM",
+    "name": "대수"
+   },
+   {
+    "id": "CONTS",
+    "name": "안건정보"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "의원실 행사 정보",
+  "infaId": "OOWY4R001216HX11501",
+  "service": "NAMEMBEREVENT",
+  "urls": [
+   {
+    "name": "의원실행사정보",
+    "service": "NAMEMBEREVENT"
+   }
+  ],
+  "request": [],
+  "output": [
+   {
+    "id": "NAAS_NM",
+    "name": "국회의원명"
+   },
+   {
+    "id": "EV_TTL",
+    "name": "행사 제목"
+   },
+   {
+    "id": "EV_DTM",
+    "name": "행사 일시"
+   },
+   {
+    "id": "EV_PLC",
+    "name": "행사 장소"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 세미나 일정",
+  "infaId": "O67B1I001080WL10254",
+  "service": "nfcoioopazrwmjrgs",
+  "urls": [
+   {
+    "name": "국회세미나일정",
+    "service": "nfcoioopazrwmjrgs"
+   }
+  ],
+  "request": [
+   {
+    "id": "TITLE",
+    "name": "제목",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "DESCRIPTION",
+    "name": "설명",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "SDATE",
+    "name": "개최일",
+    "need": null,
+    "example": "SDATE='2007.01.12'"
+   },
+   {
+    "id": "NAME",
+    "name": "주최기관",
+    "need": null,
+    "example": "NAME='주최기관 검색어'  (예시) NAME=국회물포럼 "
+   },
+   {
+    "id": "LOCATION",
+    "name": "개최장소",
+    "need": null,
+    "example": "LOCATION='개최장소 검색어'  (예시) LOCATION=국회도서관 "
+   }
+  ],
+  "output": [
+   {
+    "id": "TITLE",
+    "name": "제목"
+   },
+   {
+    "id": "LINK",
+    "name": "의원실링크"
+   },
+   {
+    "id": "DESCRIPTION",
+    "name": "설명"
+   },
+   {
+    "id": "SDATE",
+    "name": "개최일"
+   },
+   {
+    "id": "STIME",
+    "name": "개최시간"
+   },
+   {
+    "id": "NAME",
+    "name": "주최기관"
+   },
+   {
+    "id": "LOCATION",
+    "name": "개최장소"
+   },
+   {
+    "id": "IMGLINK",
+    "name": "이미지주소"
+   },
+   {
+    "id": "PHONE",
+    "name": "문의전화번호"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 정책 세미나 개최 현황",
+  "infaId": "OQ0A0T0011366V19103",
+  "service": "nbqbmccpamsvwebkn",
+  "urls": [
+   {
+    "name": "2020년 2월 국회의원정책세미나",
+    "service": "nbqbmccpamsvwebkn"
+   }
+  ],
+  "request": [
+   {
+    "id": "TITLE",
+    "name": "제목",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "HOST_DT",
+    "name": "개최일시",
+    "need": "Y",
+    "example": "HOST_DT='개최일시 검색어'  (예시) HOST_DT=2021"
+   },
+   {
+    "id": "HOST_INS_NAME",
+    "name": "주최",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "ATTENDANCE_NAME1",
+    "name": "발제자",
+    "need": null,
+    "example": null
+   },
+   {
+    "id": "ATTENDANCE_NAME2",
+    "name": "토론자",
+    "need": null,
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "TITLE",
+    "name": "제목"
+   },
+   {
+    "id": "SEMINAR_DIV_CODE",
+    "name": "구분"
+   },
+   {
+    "id": "HOST_DT",
+    "name": "개최일시"
+   },
+   {
+    "id": "HOST_PLACE_NAME",
+    "name": "장소"
+   },
+   {
+    "id": "HOST_INS_NAME",
+    "name": "주최"
+   },
+   {
+    "id": "ATTENDANCE_NAME1",
+    "name": "발제자"
+   },
+   {
+    "id": "ATTENDANCE_NAME2",
+    "name": "토론자"
+   },
+   {
+    "id": "DETAIL_VIEW_URL",
+    "name": "상세보기URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회의원 기자회견",
+  "infaId": "OZY6M30010164K11655",
+  "service": "npbzvuwvasdqldskm",
+  "urls": [
+   {
+    "name": "2020년 2월 국회의원기자회견",
+    "service": "npbzvuwvasdqldskm"
+   }
+  ],
+  "request": [
+   {
+    "id": "TAKING_DATE",
+    "name": "회견일",
+    "need": "Y",
+    "example": "TAKING_DATE='회견일 검색어'  (예시) TAKING_DATE=2021"
+   },
+   {
+    "id": "TITLE",
+    "name": "제목",
+    "need": null,
+    "example": "TITLE='제목 검색어'  (예시) TITLE=\t김이수 "
+   },
+   {
+    "id": "PERSON",
+    "name": "발언자",
+    "need": null,
+    "example": null
+   }
+  ],
+  "output": [
+   {
+    "id": "TAKING_DATE",
+    "name": "회견일"
+   },
+   {
+    "id": "OPEN_TIME",
+    "name": "회견시각"
+   },
+   {
+    "id": "TITLE",
+    "name": "제목"
+   },
+   {
+    "id": "PERSON",
+    "name": "발언자"
+   },
+   {
+    "id": "REC_TIME",
+    "name": "재생시간"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "영상 바로보기"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회발간물 통합 API",
+  "infaId": "OOWY4R001216HX11441",
+  "service": "ALLNASPBLM",
+  "urls": [
+   {
+    "name": "국회발간물통합API",
+    "service": "ALLNASPBLM"
+   }
+  ],
+  "request": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분",
+    "need": null,
+    "example": "MTR_DIV='발간자료구분 검색어'  (예시) MTR_DIV=법제기준"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목",
+    "need": null,
+    "example": "MTR_TTL='발간자료제목 검색어'  (예시) MTR_TTL=현행"
+   }
+  ],
+  "output": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목"
+   },
+   {
+    "id": "WRT_DT",
+    "name": "작성일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회입법조사처 제공 자료 통합 API",
+  "infaId": "OOWY4R001216HX11446",
+  "service": "ALLNARSPBLM",
+  "urls": [
+   {
+    "name": "국회입법조사처제공자료통합API",
+    "service": "ALLNARSPBLM"
+   }
+  ],
+  "request": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분",
+    "need": null,
+    "example": "MTR_DIV='발간자료구분 검색어'  (예시) MTR_DIV=외국입법"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목",
+    "need": null,
+    "example": "MTR_TTL='발간자료제목 검색어'  (예시) MTR_TTL=미국"
+   }
+  ],
+  "output": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목"
+   },
+   {
+    "id": "WRT_DT",
+    "name": "작성일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크 URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회예산정책처 제공 자료 통합 API",
+  "infaId": "OOWY4R001216HX11500",
+  "service": "ALLNABOPBLM",
+  "urls": [
+   {
+    "name": "국회예산정책처제공자료통합API",
+    "service": "ALLNABOPBLM"
+   }
+  ],
+  "request": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분",
+    "need": null,
+    "example": "MTR_DIV='발간자료구분 검색어'  (예시) MTR_DIV=NABO "
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목",
+    "need": null,
+    "example": "MTR_TTL='발간자료제목 검색어'  (예시) MTR_TTL=NABO "
+   }
+  ],
+  "output": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목"
+   },
+   {
+    "id": "WRT_DEPT",
+    "name": "작성부서"
+   },
+   {
+    "id": "WRT_DT",
+    "name": "작성일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회미래연구원 제공 자료 통합 API",
+  "infaId": "OOWY4R001216HX11450",
+  "service": "ALLNAFIPBLM",
+  "urls": [
+   {
+    "name": "국회미래연구원제공자료통합API",
+    "service": "ALLNAFIPBLM"
+   }
+  ],
+  "request": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분",
+    "need": null,
+    "example": "MTR_DIV='발간자료구분 검색어'  (예시) MTR_DIV=미래생각"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목",
+    "need": null,
+    "example": "MTR_TTL='발간자료제목 검색어'  (예시) MTR_TTL=누리호"
+   }
+  ],
+  "output": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목"
+   },
+   {
+    "id": "PUBLCO_NM",
+    "name": "출판사"
+   },
+   {
+    "id": "PUBLCO_YEAR",
+    "name": "출판년도"
+   },
+   {
+    "id": "AUT_NM",
+    "name": "담당자"
+   },
+   {
+    "id": "FRUM_PANL_NM",
+    "name": "미래포럼 패널"
+   },
+   {
+    "id": "FRUM_OPB_DT",
+    "name": "미래포럼 개최일"
+   },
+   {
+    "id": "WRT_DT",
+    "name": "작성일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ },
+ {
+  "name": "국회도서관 제공 자료 통합 API",
+  "infaId": "OOWY4R001216HX11443",
+  "service": "ALLNANETPBLM",
+  "urls": [
+   {
+    "name": "국회도서관제공자료통합API",
+    "service": "ALLNANETPBLM"
+   }
+  ],
+  "request": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분",
+    "need": null,
+    "example": "MTR_DIV='발간자료구분 검색어'  (예시) MTR_DIV=최신외국"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목",
+    "need": null,
+    "example": "MTR_TTL='발간자료제목 검색어'  (예시) MTR_TTL=법의관"
+   }
+  ],
+  "output": [
+   {
+    "id": "MTR_DIV",
+    "name": "발간자료구분"
+   },
+   {
+    "id": "MTR_TTL",
+    "name": "발간자료제목"
+   },
+   {
+    "id": "WRT_DT",
+    "name": "작성일"
+   },
+   {
+    "id": "LINK_URL",
+    "name": "링크URL"
+   }
+  ],
+  "rawKeys": [
+   "infNm",
+   "srvCd",
+   "apiEp",
+   "apiRes",
+   "apiTrf",
+   "variables",
+   "columns",
+   "urls",
+   "filters",
+   "messages"
+  ]
+ }
+]

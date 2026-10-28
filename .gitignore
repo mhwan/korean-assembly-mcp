@@ -1,0 +1,11 @@
+node_modules/
+
+# 에이전트 도구의 작업 상태·세션 기록
+.sc/
+
+# 인증키는 ~/.config/assembly-data/credentials 또는 환경 변수로 둔다
+.env
+credentials
+
+.DS_Store
+*.log
